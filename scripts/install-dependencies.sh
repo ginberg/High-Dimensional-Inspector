@@ -1,6 +1,6 @@
 #!/bin/bash
 #Install the dependencies and build the library in ./build
-sudo apt-get install qtbase5-dev libqt5webkit5-dev libflann-dev
+sudo apt-get install -y qtbase5-dev libqt5webkit5-dev libflann-dev
 git clone https://github.com/RoaringBitmap/CRoaring.git
 cd CRoaring
 
