@@ -17,7 +17,7 @@ cd CRoaring
 
 mkdir -p build
 cd build
-cmake  -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/opt/qt55 ..
+cmake  -DCMAKE_BUILD_TYPE=Release -DCMAKE_PREFIX_PATH=/opt/qt55/lib/cmake ..
 make
 sudo make install
 
